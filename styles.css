@@ -39,10 +39,9 @@ section{
     padding-left: 150px;
 }
 .card{
-    background:hwb(14 81% 5%);
-    border: solid #eac996
+    background:#eedc9a;
+   
 }
-
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -55,29 +54,98 @@ section{
     font-family: Arial, Helvetica, sans-serif;
     }
 h1{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: sienna;
 
        }
 h2{
-    font-family:Arial, Helvetica, sans-serif;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: sienna;
-    text-align: center;
+    position:sticky;
+    padding-left: 150%;
+       
 }
 
-.cont-card{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 20px 20px;
-    Margin: 20px 20px 20px 20px;
-    grid-template-rows: 200px 200px;
-    gap: 60px;
-    text-align: center;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+h3{font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:sienna;
+    position: sticky;
+    padding-left: 30%;
+    font-style: italic;
 }
 
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+   
+}
+form {
+    margin-top: 20px;
+}
 
+label {
+    display: block;
+    margin-bottom: 5px;
+}
 
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color:sienna;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:silver;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.separator{
+    width: 0%;
+    height: 10%;
+    background: #fff;
+    border-right: 100vw solid transparent;
+    border-bottom: 10vw solid rgb(204, 155, 109);
+    margin-top: 0vw;
+    transform: (-30deg);
+       
+}
+
+.whatsapp-logo {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 1000; 
+}
+.correo {
+    display: flex;
+    align-items: center;
+}
+
+.correo i {
+    margin-right: 5px; 
+}
+.telefono {
+    display: flex;
+    align-items: center;
+}
+
+.telefono i {
+    margin-right: 5px; 
+}
 
 
